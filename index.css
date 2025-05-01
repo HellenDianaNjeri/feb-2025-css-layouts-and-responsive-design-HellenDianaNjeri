@@ -1,0 +1,62 @@
+body{
+    background-image: url('IMAGES/RADIANT\ SKIN.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color:#4B0082;
+    font-weight: bold; 
+    
+}
+
+.logo{
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hero{
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    
+}
+
+h1{
+    font-family: poppins;
+    text-align: left;
+}
+
+
+.Navbar ol{
+    display: flex;
+    color: #E9967A;
+}
+
+.Navbar li{
+    list-style: none;
+    margin: 20px;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    font-weight: bold;
+    font-size: small;
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero h2 {
+        font-size: 1.2rem;
+    }
+
+    .Navlinks {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
